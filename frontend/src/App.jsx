@@ -15,7 +15,7 @@ function App() {
         salary: "",
     });
 
-    const API_URL = "http://localhost:8080/api/employees";
+    const API_URL = "/api/employees";
 
     // Get employees from Spring Boot
     const fetchEmployees = async () => {
