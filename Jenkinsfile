@@ -22,6 +22,14 @@ pipeline {
             }
         }
 
+        stage('Deploy') {
+            steps {
+                withCredentials([string(credentialsId: 'mysql-db-password', variable: 'MYSQL_TEST_PASSWORD')]) {
+                    sh 'docker-compose up -d'
+                }
+            }
+        }
+
     }
 
 }
