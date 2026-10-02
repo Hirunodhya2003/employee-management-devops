@@ -126,6 +126,36 @@ MySQL is used as the application database.
 * Database: `employee_db`
 * Persistent Docker volume
 
+
+# 📸 Project Screenshots
+
+## Employee Management Dashboard
+
+![Employee Dashboard](docs/dashboard.png)
+
+## Employees - CRUD Operations
+
+![Employees CRUD](docs/employees.png)
+
+## Add / Edit Employee
+
+![Employee Form](docs/employee-form.png)
+
+## Jenkins CI/CD Pipeline
+
+![Jenkins Pipeline](docs/jenkins-pipeline.png)
+
+## Prometheus Targets
+
+![Prometheus Targets](docs/prometheus-targets.png)
+
+## Grafana - Infrastructure Monitoring
+
+![Grafana Infrastructure](docs/grafana-infrastructure.png)
+
+## Grafana - Application Monitoring
+
+![Grafana Application](docs/grafana-application.png)
 ---
 
 # 🔄 Employee CRUD API
